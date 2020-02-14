@@ -199,11 +199,14 @@
 <p>EEPROM(Electrically Erasable PROM,电可擦除编程ROM)和闪存(flash memroy)，它们都是非易失性的，它们可以擦除与重写，不过比写入RAM需要更高数量级的时间，它们的特点是可以通过重写方式纠正所保存的程序中的错误。</p>
 <p>CMOS储存器，耗电少，用于保存时间<br><img src="https://dkblog.oss-cn-shenzhen.aliyuncs.com/img/%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84.jpg" alt="存储层次结构"></p>
 <hr>
-<p>多道程序设计的基本特征是</p>
-<p>1.制约性</p>
+<h2 id="多道程序设计的基本特征是"><a href="#多道程序设计的基本特征是" class="headerlink" title="多道程序设计的基本特征是"></a>多道程序设计的基本特征是</h2><p>1.制约性</p>
 <p>2.间断性</p>
 <p>3.共享性</p>
 <p>单道程序设计的基本特征是 顺序性</p>
+<hr>
+<h2 id="错题"><a href="#错题" class="headerlink" title="错题"></a>错题</h2><p>中断技术使得多道批处理系统和I/O设备可与CPU并行工作</p>
+<p>理解：设备工作时，便由CPU向相应的设备控制器发出一条I/O命令，然后立即返回继续执行原来的任务。</p>
+<p>一旦数据进入数据寄存器(在设备控制器中)，设备控制器便通过控制线向CPU发送一中断信号，由CPU检查输入过程是否出错。</p>
   </article>
   <aside class="table-content" id="site-toc">
   <div class="table-content-title">
@@ -211,7 +214,7 @@
     <span>目录</span>
   </div>
   <div class="table-content-main">
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#操作系统的特征"><span class="toc-text">操作系统的特征</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-并发"><span class="toc-text">1.并发</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-共享"><span class="toc-text">2.共享  </span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-虚拟"><span class="toc-text">3.虚拟</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-异步"><span class="toc-text">4.异步</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#存储器"><span class="toc-text">存储器</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#操作系统的特征"><span class="toc-text">操作系统的特征</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-并发"><span class="toc-text">1.并发</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-共享"><span class="toc-text">2.共享  </span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-虚拟"><span class="toc-text">3.虚拟</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-异步"><span class="toc-text">4.异步</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#存储器"><span class="toc-text">存储器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#多道程序设计的基本特征是"><span class="toc-text">多道程序设计的基本特征是</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#错题"><span class="toc-text">错题</span></a></li></ol>
   </div>
 </aside>
   
@@ -262,6 +265,15 @@
           
             <span class="site-footer-item">
               <a href="http://ruanyifeng.com/" target="_blank">阮一峰的个人网站</a>
+            </span>
+          
+        </div>
+      
+        <div class="site-footer-col">
+          <h5 class="site-footer-title">备案号</h5>
+          
+            <span class="site-footer-item">
+              <a href="http://www.beuan.miit.gov.cn" target="_blank">粤ICP备18152226号</a>
             </span>
           
         </div>
